@@ -1,0 +1,8 @@
+[mosquito-myrepo]
+name=Copr repo for myrepo owned by mosquito
+baseurl=https://copr-be.cloud.fedoraproject.org/results/mosquito/myrepo/epel-6-$basearch/
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://copr-be.cloud.fedoraproject.org/results/mosquito/myrepo/pubkey.gpg
+enabled=1
+enabled_metadata=1

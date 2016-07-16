@@ -1,0 +1,39 @@
+[sl-rolling]
+name=Scientific Linux 7rolling (pre-release) - $basearch
+baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/$basearch/os/
+		http://mirrors.ustc.edu.cn/scientificlinux/7rolling/$basearch/os/
+		http://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/os/
+                http://ftp1.scientificlinux.org/linux/scientific/7rolling/$basearch/os/
+                http://ftp2.scientificlinux.org/linux/scientific/7rolling/$basearch/os/
+                ftp://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/os/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
+metadata_expire=3600
+
+[sl-rolling-security]
+name=Scientific Linux 7rolling (pre-release) - $basearch - security updates
+baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/$basearch/updates/security/
+		http://mirrors.ustc.edu.cn/scientificlinux/7rolling/$basearch/updates/security/
+		http://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/security/
+                http://ftp1.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/security/
+                http://ftp2.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/security/
+                ftp://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/security/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
+metadata_expire=3600
+
+[sl-rolling-fastbugs]
+name=Scientific Linux 7rolling (pre-release) - $basearch - bugfix updates
+baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/$basearch/updates/fastbugs/
+		http://mirrors.ustc.edu.cn/scientificlinux/7rolling/$basearch/updates/fastbugs/
+		http://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/fastbugs/
+                http://ftp1.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/fastbugs/
+                http://ftp2.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/fastbugs/
+                ftp://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/fastbugs/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
+metadata_expire=3600
+

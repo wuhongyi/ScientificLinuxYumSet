@@ -1,0 +1,60 @@
+[sl]
+name=Scientific Linux $releasever - $basearch
+baseurl=http://mirrors.aliyun.com/scientificlinux/$releasever/$basearch/os/
+	http://centos.ustc.edu.cn/scientificlinux/$releasever/$basearch/os/
+        http://ftp.ne.jp/Linux/distributions/scientificlinux/$releasever/$basearch/os/
+        http://ftp.sjtu.edu.cn/scientific/$releasever/$basearch/os/
+        http://ftp.scientificlinux.org/linux/scientific/$releasever/$basearch/os/
+        http://ftp1.scientificlinux.org/linux/scientific/$releasever/$basearch/os/
+        http://ftp2.scientificlinux.org/linux/scientific/$releasever/$basearch/os/
+        ftp://ftp.scientificlinux.org/linux/scientific/$releasever/$basearch/os/
+        http://ftp.kddilabs.jp/Linux/packages/scientificlinux/$releasever/$basearch/os/
+       
+
+#mirrorlist=http://ftp.scientificlinux.org/linux/scientific/mirrorlist/sl-base-6x.txt
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dawson
+
+[sl-security]
+name=Scientific Linux $releasever - $basearch - security updates
+baseurl=http://mirrors.aliyun.com/scientificlinux/$releasever/$basearch/updates/security/
+	http://centos.ustc.edu.cn/scientificlinux/$releasever/$basearch/updates/security/
+	http://ftp.ne.jp/Linux/distributions/scientificlinux/$releasever/$basearch/updates/security/
+        http://ftp.jaist.ac.jp/pub/Linux/scientific/$releasever/$basearch/updates/security/
+        http://ftp.yzu.edu.tw/Linux/scientific/$releasever/$basearch/updates/security/
+        http://ftp.tsukuba.wide.ad.jp/Linux/scientific/$releasever/$basearch/updates/security/
+        http://ftp.fau.de/scientific/$releasever/$basearch/updates/security/
+        http://mirrors.ircam.fr/pub/scientificlinux/scientific/$releasever/$basearch/updates/security/
+        http://ftp.plusline.de/pub/scientific/$releasever/$basearch/updates/security/
+        http://ftp.yz.yamagata-u.ac.jp/pub/linux/scientific/$releasever/$basearch/updates/security/
+        http://ftp.sjtu.edu.cn/scientific/$releasever/$basearch/updates/security/
+        http://ftp.scientificlinux.org/linux/scientific/$releasever/$basearch/updates/security/
+        http://ftp1.scientificlinux.org/linux/scientific/$releasever/$basearch/updates/security/
+        http://ftp2.scientificlinux.org/linux/scientific/$releasever/$basearch/updates/security/
+        ftp://ftp.scientificlinux.org/linux/scientific/$releasever/$basearch/updates/security/
+        http://ftp.kddilabs.jp/Linux/packages/scientificlinux/$releasever/$basearch/updates/security/
+
+
+#mirrorlist=http://ftp.scientificlinux.org/linux/scientific/mirrorlist/sl-security-6x.txt
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dawson
+
+
+[sl-source]
+name=Scientific Linux $releasever - Source
+baseurl=http://mirrors.aliyun.com/scientificlinux/$releasever/SRPMS/
+	http://centos.ustc.edu.cn/scientificlinux/$releasever/SRPMS/
+	http://ftp.ne.jp/Linux/distributions/scientificlinux/$releasever/SRPMS/
+        http://ftp.sjtu.edu.cn/scientific/$releasever/SRPMS/
+        http://ftp.scientificlinux.org/linux/scientific/$releasever/SRPMS/
+        http://ftp1.scientificlinux.org/linux/scientific/$releasever/SRPMS/
+        http://ftp2.scientificlinux.org/linux/scientific/$releasever/SRPMS/
+        ftp://ftp.scientificlinux.org/linux/scientific/$releasever/SRPMS/
+        http://ftp.kddilabs.jp/Linux/packages/scientificlinux/$releasever/SRPMS/
+               
+
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dawson

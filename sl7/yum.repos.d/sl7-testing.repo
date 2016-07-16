@@ -1,0 +1,25 @@
+[sl-testing]
+name=Scientific Linux Testing - $basearch
+baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/testing/$basearch/
+		http://mirrors.ustc.edu.cn/scientificlinux/7rolling/testing/$basearch/
+		http://ftp.scientificlinux.org/linux/scientific/7rolling/testing/$basearch/
+                http://ftp1.scientificlinux.org/linux/scientific/7rolling/testing/$basearch/
+                http://ftp2.scientificlinux.org/linux/scientific/7rolling/testing/$basearch/
+                ftp://ftp.scientificlinux.org/linux/scientific/7rolling/testing/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
+metadata_expire=60
+
+[sl-testing-source]
+name=Scientific Linux Testing - Source
+baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/testing/SRPMS/
+		http://mirrors.ustc.edu.cn/scientificlinux/7rolling/testing/SRPMS/
+		http://ftp.scientificlinux.org/linux/scientific/7rolling/testing/SRPMS/
+                http://ftp1.scientificlinux.org/linux/scientific/7rolling/testing/SRPMS/
+                http://ftp2.scientificlinux.org/linux/scientific/7rolling/testing/SRPMS/
+                ftp://ftp.scientificlinux.org/linux/scientific/7rolling/testing/SRPMS/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
+metadata_expire=60

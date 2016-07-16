@@ -1,0 +1,24 @@
+[sl-source]
+name=Scientific Linux $slreleasever - Source
+baseurl=http://mirrors.aliyun.com/scientificlinux/$slreleasever/SRPMS/
+		http://mirrors.ustc.edu.cn/scientificlinux/$slreleasever/SRPMS/
+		http://ftp.scientificlinux.org/linux/scientific/$slreleasever/SRPMS/
+                http://ftp1.scientificlinux.org/linux/scientific/$slreleasever/SRPMS/
+                http://ftp2.scientificlinux.org/linux/scientific/$slreleasever/SRPMS/
+                ftp://ftp.scientificlinux.org/linux/scientific/$slreleasever/SRPMS/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-beta file:///etc/pki/rpm-gpg/release file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-legacy-other file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
+
+
+[sl-debuginfo]
+name=Scientific Linux Debuginfo
+baseurl=http://mirrors.aliyun.com/scientificlinux/$slreleasever/archive/debuginfo/
+		http://mirrors.ustc.edu.cn/scientificlinux/$slreleasever/archive/debuginfo/
+		http://ftp.scientificlinux.org/linux/scientific/$slreleasever/archive/debuginfo/
+                http://ftp1.scientificlinux.org/linux/scientific/$slreleasever/archive/debuginfo/
+                http://ftp2.scientificlinux.org/linux/scientific/$slreleasever/archive/debuginfo/
+                ftp://ftp.scientificlinux.org/linux/scientific/$slreleasever/archive/debuginfo/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
