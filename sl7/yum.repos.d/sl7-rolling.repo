@@ -7,7 +7,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/$basearch/os/
                 http://ftp2.scientificlinux.org/linux/scientific/7rolling/$basearch/os/
                 ftp://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/os/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
 metadata_expire=3600
 
@@ -20,7 +20,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/$basearch/updates/sec
                 http://ftp2.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/security/
                 ftp://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/security/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
 metadata_expire=3600
 
@@ -33,7 +33,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/7rolling/$basearch/updates/fas
                 http://ftp2.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/fastbugs/
                 ftp://ftp.scientificlinux.org/linux/scientific/7rolling/$basearch/updates/fastbugs/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
 metadata_expire=3600
 

@@ -7,7 +7,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/$slreleasever/SRPMS/
                 http://ftp2.scientificlinux.org/linux/scientific/$slreleasever/SRPMS/
                 ftp://ftp.scientificlinux.org/linux/scientific/$slreleasever/SRPMS/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-beta file:///etc/pki/rpm-gpg/release file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-legacy-other file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
 
 
@@ -20,5 +20,5 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/$slreleasever/archive/debuginf
                 http://ftp2.scientificlinux.org/linux/scientific/$slreleasever/archive/debuginfo/
                 ftp://ftp.scientificlinux.org/linux/scientific/$slreleasever/archive/debuginfo/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7

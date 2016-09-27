@@ -8,5 +8,5 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/$slreleasever/$basearch/os/
                 ftp://ftp.scientificlinux.org/linux/scientific/$slreleasever/$basearch/os/
 #mirrorlist=http://ftp.scientificlinux.org/linux/scientific/mirrorlist/sl-base-7.txt
 enabled=1
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7

@@ -13,7 +13,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/$releasever/$basearch/updates/
 
 #mirrorlist=http://ftp.scientificlinux.org/linux/scientific/mirrorlist/sl-fastbugs-6x.txt
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dawson
 
 [sl-debuginfo]
@@ -30,7 +30,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/$releasever/archive/debuginfo/
          
 
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dawson
 
 
@@ -47,7 +47,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/6rolling/testing/$basearch/
         http://ftp.kddilabs.jp/Linux/packages/scientificlinux/6rolling/testing/$basearch/
                
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dawson
 
 [sl-testing-source]
@@ -64,5 +64,5 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/6rolling/testing/SRPMS/
 
 
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-dawson

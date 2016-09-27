@@ -8,5 +8,5 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/$slreleasever/$basearch/update
                 ftp://ftp.scientificlinux.org/linux/scientific/$slreleasever/$basearch/updates/fastbugs/
 #mirrorlist=http://ftp.scientificlinux.org/linux/scientific/mirrorlist/sl-fastbugs-7.txt
 enabled=1
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7

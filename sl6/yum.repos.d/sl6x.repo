@@ -8,7 +8,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/6x/$basearch/os/
 	ftp://ftp.scientificlinux.org/linux/scientific/6x/$basearch/os/
 #mirrorlist=http://ftp.ne.jp/Linux/distributions/scientificlinux/mirrorlist/sl-base-6x.txt
 enabled=1
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl6 file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
 
 [sl6x-security]
@@ -28,7 +28,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/6x/$basearch/updates/security/
 		ftp://ftp.scientificlinux.org/linux/scientific/6x/$basearch/updates/security/
 #mirrorlist=http://ftp.ne.jp/Linux/distributions/scientificlinux/mirrorlist/sl-security-6x.txt
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl6 file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
 
 [sl6x-fastbugs]
@@ -41,6 +41,6 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/6x/$basearch/updates/fastbugs/
 	ftp://ftp.scientificlinux.org/linux/scientific/6x/$basearch/updates/fastbugs/
 #mirrorlist=http://ftp.ne.jp/Linux/distributions/scientificlinux/mirrorlist/sl-fastbugs-6x.txt
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl6 file:///etc/pki/rpm-gpg/RPM-GPG-KEY-cern
 

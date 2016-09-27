@@ -3,7 +3,7 @@ name=Red Hat Enterprise Linux $releasever - $basearch - ATrpms
 failovermethod=priority
 baseurl=http://dl.atrpms.net/el$releasever-$basearch/atrpms/stable
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-atrpms
 
 [atrpms-debuginfo]
@@ -11,7 +11,7 @@ name=Red Hat Enterprise Linux $releasever - $basearch - ATrpms - Debug
 failovermethod=priority
 baseurl=http://dl.atrpms.net/debug/el$releasever-$basearch/atrpms/stable
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-atrpms
 
 [atrpms-source]
@@ -19,5 +19,5 @@ name=Red Hat Enterprise Linux $releasever - $basearch - ATrpms - Source
 failovermethod=priority
 baseurl=http://dl.atrpms.net/src/el$releasever-$basearch/atrpms/stable
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-atrpms

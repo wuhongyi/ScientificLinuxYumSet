@@ -7,7 +7,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/7x/external_products/extras/$b
         http://ftp2.scientificlinux.org/linux/scientific/7x/external_products/extras/$basearch/
 
 enabled=1
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
 
 [sl-extras-debuginfo]
@@ -19,7 +19,7 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/7x/external_products/extras/$b
         http://ftp2.scientificlinux.org/linux/scientific/7x/external_products/extras/$basearch/debuginfo/
 
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
 
 [sl-extras-source]
@@ -31,6 +31,6 @@ baseurl=http://mirrors.aliyun.com/scientificlinux/7x/external_products/extras/SR
         http://ftp2.scientificlinux.org/linux/scientific/7x/external_products/extras/SRPMS/
 
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl file:///etc/pki/rpm-gpg/RPM-GPG-KEY-sl7
 

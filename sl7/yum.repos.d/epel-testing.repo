@@ -4,7 +4,7 @@ name=Extra Packages for Enterprise Linux 7 - Testing - $basearch
 mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=testing-epel7&arch=$basearch
 failovermethod=priority
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
 
 [epel-testing-debuginfo]
@@ -14,7 +14,7 @@ mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=testing-debug-epel7&a
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
-gpgcheck=1
+gpgcheck=0
 
 [epel-testing-source]
 name=Extra Packages for Enterprise Linux 7 - Testing - $basearch - Source
@@ -23,4 +23,4 @@ mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=testing-source-epel7&
 failovermethod=priority
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
-gpgcheck=1
+gpgcheck=0
