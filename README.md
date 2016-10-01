@@ -4,9 +4,9 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 六 7月 16 21:16:08 2016 (+0800)
-;; Last-Updated: 二 9月 27 13:48:49 2016 (+0800)
+;; Last-Updated: 六 10月  1 19:43:40 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 3
+;;     Update #: 4
 ;; URL: http://wuhongyi.github.io -->
 
 # README
@@ -25,7 +25,8 @@ Scientific Linux **yum** 配置文件
 ```shell
 cd sl6/7
 cd yum.repos.d
-cp -f  *   /etc/yum.repos.d
+cp   *   /etc/yum.repos.d
+# 然后按 y 同意覆盖(提示的每个都需要)
 ```
 
 然后即可按照教程配置软件。
