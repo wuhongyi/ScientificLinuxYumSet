@@ -8,7 +8,7 @@ protect=0
 
 [nux-dextop-testing]
 name=Nux.Ro RPMs for general desktop use - testing
-baseurl=http://li.nux.ro/download/nux/dextop-testing/el7/$basearch/
+baseurl=http://li.nux.ro/download/nux/dextop-testing/el6/$basearch/
 enabled=0
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-nux.ro

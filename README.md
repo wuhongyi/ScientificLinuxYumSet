@@ -4,9 +4,9 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 六 7月 16 21:16:08 2016 (+0800)
-;; Last-Updated: 一 10月  3 19:29:38 2016 (+0800)
+;; Last-Updated: 五 11月 11 21:35:58 2016 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 5
+;;     Update #: 6
 ;; URL: http://wuhongyi.cn -->
 
 # README
@@ -30,6 +30,11 @@ cp   *   /etc/yum.repos.d
 ```
 
 然后即可按照教程配置软件。
+
+----
+
+20161111 **sl7** add okay.repo  install shc
+
 
 
 <!-- README.md ends here -->
