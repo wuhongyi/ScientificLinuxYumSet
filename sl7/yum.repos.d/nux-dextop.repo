@@ -12,4 +12,5 @@ baseurl=http://li.nux.ro/download/nux/dextop-testing/el7/$basearch/
 enabled=0
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-nux.ro
+skip_if_unavailable = 1
 protect=0
