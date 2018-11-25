@@ -4,9 +4,9 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 六 7月 16 21:16:08 2016 (+0800)
-;; Last-Updated: 日 11月 20 21:10:12 2016 (+0800)
+;; Last-Updated: 日 11月 25 09:14:13 2018 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 8
+;;     Update #: 9
 ;; URL: http://wuhongyi.cn -->
 
 # README
@@ -37,6 +37,6 @@ update:
 
 - 20161111 **sl7** add okay.repo  install shc
 - 20161120 **sl7** add remi*.repo
-
+- 20181125 **sl7** remove google-chrome.repo
 
 <!-- README.md ends here -->
