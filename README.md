@@ -4,9 +4,9 @@
 ;; Author: Hongyi Wu(吴鸿毅)
 ;; Email: wuhongyi@qq.com 
 ;; Created: 六 7月 16 21:16:08 2016 (+0800)
-;; Last-Updated: 二 5月 21 22:03:42 2019 (+0800)
+;; Last-Updated: 四 5月  6 20:41:35 2021 (+0800)
 ;;           By: Hongyi Wu(吴鸿毅)
-;;     Update #: 11
+;;     Update #: 12
 ;; URL: http://wuhongyi.cn -->
 
 # README
@@ -40,5 +40,10 @@ update:
 - 20161120 **sl7** add remi*.repo
 - 20181125 **sl7** remove google-chrome.repo
 - 20190521 **c7**  init
+
+
+CENTOS 镜像
+
+https://vault.centos.org/
 
 <!-- README.md ends here -->
